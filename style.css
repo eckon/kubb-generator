@@ -1,0 +1,47 @@
+table {
+    width: 100%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #666;
+    padding: 7px;
+    text-align: center;
+}
+
+#game th:nth-child(1) {
+    width: 10%;
+}
+
+#game th:nth-child(4) {
+    width: 15%;
+}
+
+#game th:nth-child(1), #game td:nth-child(1), #game th:nth-child(4), #game td:nth-child(4) {
+    font-size: 100%;   
+}
+
+#game th:nth-child(2), #game td:nth-child(2), #game th:nth-child(3), #game td:nth-child(3), #user-matrix th:nth-child(1), #user-matrix td:nth-child(1) {
+    font-size: 150%;
+}
+
+#user-matrix {
+    width: 80%;
+    margin: auto;
+}
+
+#user-matrix th:nth-child(1), #user-matrix td:nth-child(1) {
+    width: 30%;
+}
+
+#user-matrix th:nth-child(2), #user-matrix td:nth-child(2) {
+    width: 60%;
+}
+
+#user-matrix th:nth-child(3), #user-matrix td:nth-child(3) {
+    width: 5%;
+}
+#user-matrix th:nth-child(3), #user-matrix td:nth-child(3) {
+    width: 5%;
+}
